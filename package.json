@@ -1,0 +1,20 @@
+{
+  "name": "Happy",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/server.ts"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "sucrase": "^3.20.3",
+    "@types/express": "^4.17.13",
+    "@types/nodemon": "^1.19.1"
+  },
+  "dependencies": {
+    "@prisma/client": "^3.11.0",
+    "express": "^4.17.3",
+    "prisma": "^3.10.0"
+  }
+}
